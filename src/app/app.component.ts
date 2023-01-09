@@ -37,4 +37,8 @@ export class AppComponent {
   ngOnInit() {
     // this.parentMessage ="Code-Android-example.blogspot.com";
   }
+
+  getValues(val: any) {
+    console.log("Hi",val)
+  }
 }
