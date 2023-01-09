@@ -9,6 +9,11 @@ export class AppComponent {
   parentMessage : string | undefined;
   show= "blue";
   color="aqua";
+  dat={
+    name: 'ak',
+    age: 20,
+    address: 'bangalore'
+  }
   data=['akash','traveller','m3','demo'];
   data2 = [{
     name: 'akash',
