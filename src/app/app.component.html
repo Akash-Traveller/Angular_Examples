@@ -1,1 +1,13 @@
 <h1>Condition Statement Example</h1>
+<!-- <h1 *ngIf="show=='yes'; then ifBlock else elseBlock"></h1>
+
+<ng-template #ifBlock>
+    <h2>If block</h2>
+</ng-template>
+<ng-template #elseBlock>
+    <h2>Else block</h2>
+</ng-template> -->
+
+<ng-template [ngIf]="show=='blue'" #elseBlock>
+    <h2>show blue</h2>
+</ng-template>

@@ -8,9 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angularpassdata';
   parentMessage : string | undefined;
+  show= "blue";
    constructor() { }
 
   ngOnInit() {
-    this.parentMessage ="Code-Android-example.blogspot.com";
+    // this.parentMessage ="Code-Android-example.blogspot.com";
   }
 }
