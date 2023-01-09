@@ -9,6 +9,7 @@ export class AppComponent {
   title = 'angularpassdata';
   parentMessage : string | undefined;
   show= "blue";
+  color="aqua";
    constructor() { }
 
   ngOnInit() {
