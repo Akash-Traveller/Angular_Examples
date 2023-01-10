@@ -6,36 +6,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularpassdata';
-  parentMessage : string | undefined;
-  show= "blue";
-  color="aqua";
-  dat={
-    name: 'ak',
-    age: 20,
-    address: 'bangalore'
-  }
-  data=['akash','traveller','m3','demo'];
-  data2 = [{
-    name: 'akash',
-    age: 20,
-    email: 'abx@gmail.com'
-  },
-  {
-    name: 'demo',
-    age:30,
-    email: 'sdffh@gmail.com'
-  },
-  {
-    name: 'amn',
-    age: 10,
-    email: 'sdee@gmail.com'
-  },
-  {
-    name: 'qwe',
-    age: 0,
-    email: 'qqww@gmail.com'
-  }
-]
+  
    constructor() { }
 
   ngOnInit() {
