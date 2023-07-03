@@ -7,10 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularpassdata';
-  parentMessage : string | undefined;
+  pokemon: string = "";
    constructor() { }
 
   ngOnInit() {
-    this.parentMessage ="Code-Android-example.blogspot.com";
+  }
+
+  handleClick(value: any) {
+    console.log(value);
   }
 }

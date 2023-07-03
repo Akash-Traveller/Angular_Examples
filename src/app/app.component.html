@@ -1,2 +1,3 @@
 <h1>How to pass Data parent to children in Angular</h1>
-<app-childcom [childMessage]="parentMessage"></app-childcom>
+<input type="text" #pokemon/>
+<button (click)="handleClick(pokemon.value)">Click Me</button>
